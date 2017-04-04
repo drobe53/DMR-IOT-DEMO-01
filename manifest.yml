@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: DMR-IOT-DEMO-01
+  host: DMR-IOT-DEMO-01
+  disk_quota: 1024M
+  services:
+  - DMR-IOT-DEMO-01-cloudantNoSQLDB
+  - DMR-IOT-DEMO-01-iotf-service
